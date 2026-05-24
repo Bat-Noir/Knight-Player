@@ -199,7 +199,7 @@ fun VideoPlayerScreen(
                     uri = currentVideo.uri.toString(),
                     duration = totalDur,
                     position = pos,
-                    timestamp = System.currentTimeMillis() // 🔥 ADDED THIS LINE
+                    timestamp = System.currentTimeMillis() // 🔥 ADD THIS LINE
                 )
 
                 // 2. Save it to permanent storage!
