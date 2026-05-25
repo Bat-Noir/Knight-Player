@@ -58,7 +58,7 @@ fun SubtitleSettingsScreen() {
         ) {
             Box(
                 modifier = Modifier
-                    .offset(x = posX.dp, y = posY.dp) // Live X/Y adjustments
+                    .offset(x = posX.dp, y = -posY.dp) // 🔥 THE FIX: Added minus sign to posY.dp
                     .clip(RoundedCornerShape(8.dp))
                     .background(bgColor.colorValue.copy(alpha = bgOpacity))
                     .padding(horizontal = 12.dp, vertical = 4.dp)
